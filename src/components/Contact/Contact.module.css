@@ -1,0 +1,28 @@
+.itemContact {
+  width: 220px;
+  border: 1px solid black; /* Чорний обідок */
+  border-radius: 10%; /* Закруглені кути */
+  background-color: #f0f0f0; /* Світло-сірий фон для виділення елементу */
+  padding: 10px; /* Відступ всередині елементу для кращої структури */
+  margin-bottom: 10px; /* Відступ між елементами */
+}
+
+li {
+  list-style: none; /* Видалення маркерів списку */
+  padding: 5px 0; /* Відступи для кожного пункту списку */
+}
+
+.itemContactName {
+  color: black; /* Чорний колір тексту */
+  font-size: 16px; /* Розмір шрифту */
+  font-weight: 500; /* Товщина шрифту */
+  margin-bottom: 5px; /* Відступ під назвою для відокремлення від іншого контенту */
+}
+
+.itemIcon {
+  border: 1px solid black; /* Чорний обідок */
+  padding: 5px; /* Відступ всередині іконки */
+  display: inline-block; /* Щоб іконка коректно відображалася */
+  margin-right: 5px; /* Відступ справа від іконки */
+}
+

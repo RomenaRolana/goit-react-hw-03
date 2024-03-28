@@ -1,0 +1,39 @@
+.form {
+  width: 360px;
+  border-radius: 5px;
+  background-color: #fff; /* Змінено на білий */
+  padding: 20px;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.span {
+  font-size: 26px;
+  font-weight: 700;
+  color: black; /* Додано для забезпечення чіткості в чорно-білому стилі */
+}
+
+.input {
+  height: 36px;
+  background-color: #f0f0f0; /* Світлий відтінок сірого для контрасту */
+  color: black;
+  font-size: 18px;
+  border: 1px solid black; /* Додано контур для визначеності поля вводу */
+}
+
+.error {
+  font-size: 24px;
+  font-style: oblique;
+  color: #8b0000; /* Темно-червоний для підвищення читабельності, але тримаємося чорно-білої тематики */
+}
+
+.btn {
+  background-color: #000; /* Кнопка чорного кольору для контрасту */
+  color: #fff; /* Текст кнопки білого кольору для читабельності */
+  width: 160px;
+  height: 32px;
+  margin: 0 auto;
+  border: none; /* Видалено контур кнопки для чистоти дизайну */
+}

@@ -1,0 +1,26 @@
+.searchBox {
+  width: 360px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0 15px;
+  border: 1px solid #000; /* Додано чорний контур для виділення */
+  border-radius: 5px; /* Невеликий радіус для м'якшого вигляду */
+}
+
+.searchBoxName {
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+}
+
+.searchInput {
+  height: 40px;
+  background-color: #f0f0f0; /* Світлий сірий для легкого контрасту */
+  color: black;
+  border: 1px solid #000; /* Додано чорний контур для кращого визначення поля */
+  border-radius: 5px; /* Невеликий радіус для м'якшого вигляду */
+  padding: 0 10px; /* Додано внутрішній відступ для тексту всередині поля вводу */
+}
+
